@@ -1,0 +1,29 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.STM8_Lib...\..\stm8_lib\exint.c.Config.0]
+ExternDep= ..\..\stm8_lib\exint.c  "C:\Program Files\COSMIC\CXSTM8\Hstm8\modsl.h" ..\..\stm8_lib\stdint.h  ..\..\stm8_lib\stm8as.h ..\..\stm8_lib\gpio.h ..\..\stm8_lib\exint.h
+
+[Root.STM8_Lib...\..\stm8_lib\exint.c.Config.1]
+ExternDep= ..\..\stm8_lib\exint.c  "C:\Program Files\COSMIC\CXSTM8\Hstm8\modsl.h" ..\..\stm8_lib\stdint.h  ..\..\stm8_lib\stm8as.h ..\..\stm8_lib\gpio.h ..\..\stm8_lib\exint.h
+
+[Root.STM8_Lib...\..\stm8_lib\gpio.c.Config.1]
+ExternDep= ..\..\stm8_lib\gpio.c  "C:\Program Files\COSMIC\CXSTM8\Hstm8\modsl.h" ..\..\stm8_lib\stdint.h  ..\..\stm8_lib\stm8as.h ..\..\stm8_lib\gpio.h
+
+[Root.STM8_Lib...\..\stm8_lib\putchar.c.Config.1]
+ExternDep= ..\..\stm8_lib\putchar.c  "C:\Program Files\COSMIC\CXSTM8\Hstm8\modsl.h"  "C:\Program Files\COSMIC\CXSTM8\Hstm8\stdio.h" ..\..\stm8_lib\uart1.h  ..\..\stm8_lib\stdint.h ..\..\stm8_lib\stm8as.h
+
+[Root.STM8_Lib...\..\stm8_lib\timer4.c.Config.1]
+ExternDep= ..\..\stm8_lib\timer4.c  "C:\Program Files\COSMIC\CXSTM8\Hstm8\modsl.h" ..\..\stm8_lib\stdint.h  ..\..\stm8_lib\stm8as.h ..\..\stm8_lib\timer4.h
+
+[Root.STM8_Lib...\..\stm8_lib\uart1.c.Config.1]
+ExternDep= ..\..\stm8_lib\uart1.c  "C:\Program Files\COSMIC\CXSTM8\Hstm8\modsl.h"  "C:\Program Files\COSMIC\CXSTM8\Hstm8\stdio.h" ..\..\stm8_lib\stdint.h  ..\..\stm8_lib\stm8as.h ..\..\stm8_lib\uart1.h
+
+[Root.Source Files...\main.c.Config.1]
+ExternDep= ..\main.c "C:\Program Files\COSMIC\CXSTM8\Hstm8\modsl.h"  "C:\Program Files\COSMIC\CXSTM8\Hstm8\stdlib.h"  "C:\Program Files\COSMIC\CXSTM8\Hstm8\stdio.h" ..\..\stm8_lib\stdint.h  ..\..\stm8_lib\stm8as.h ..\..\stm8_lib\gpio.h ..\..\stm8_lib\exint.h  ..\..\stm8_lib\timer4.h ..\..\stm8_lib\uart1.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.1]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files\COSMIC\CXSTM8\Hstm8\modsl.h"  "C:\Program Files\COSMIC\CXSTM8\Hstm8\stdlib.h" ..\..\stm8_lib\timer4.h  ..\..\stm8_lib\stdint.h ..\..\stm8_lib\stm8as.h ..\..\stm8_lib\exint.h

@@ -30,3 +30,12 @@
 
 # Debug files
 *.dSYM/
+
+# untested or unfinished projects (starting with 'x_')
+x_*
+
+# misc: documentation, ideas, scripts, etc.
+README.txt
+Ideen.txt
+*.command
+*.bat
