@@ -80,7 +80,6 @@ clean:
 	rm -fr STVD_Cosmic/*.wed
 
 
-
 # upload via stm8flash / SWIM (https://github.com/vdudouyt/stm8flash)
 # stm8flash requires device in lower-case -> http://gnu-make.2324884.n4.nabble.com/how-to-achieve-conversion-to-uppercase-td14496.html 
 swim:
@@ -89,15 +88,15 @@ swim:
 # upload via STM8 bootloader (https://github.com/gicking/STM8_serial_flasher)
 # select path to loader and port name
 serial:
-ifneq (,$(findstring /dev/ttyAMA,$(PORT)))          # RasPi via GPIO
-	/home/pi/STM8_serial_flasher/STM8_serial_flasher -p $(PORT) -f $(TARGET) -q -Q -r 2 -u 2
+ifneq (,$(findstring /dev/ttyAMA,$(PORT)))          # RasPi via GPIO, reset via GPIO18
+	/home/pi/STM8_serial_flasher/STM8_serial_flasher -p $(PORT) -f $(TARGET) -q -Q -r 3 -u 2
 endif
-ifneq (,$(findstring /dev/ttyUSB,$(PORT)))          # RasPi via USB
+ifneq (,$(findstring /dev/ttyUSB,$(PORT)))          # RasPi via USB, reset via UART command
 	/home/pi/STM8_serial_flasher/STM8_serial_flasher -p $(PORT) -f $(TARGET) -q -Q -r 2
 endif
-ifneq (,$(findstring /dev/tty.usbserial,$(PORT)))   # Macintosh via USB
+ifneq (,$(findstring /dev/tty.usbserial,$(PORT)))   # Macintosh via USB, reset via UART command
 	~/Public/GitHub/STM8_serial_flasher/STM8_serial_flasher -p $(PORT) -f $(TARGET) -q -Q -r 2
 endif
-ifneq (,$(findstring COM,$(PORT)))                  # Windows via USB / RS232
+ifneq (,$(findstring COM,$(PORT)))                  # Windows via USB / RS232, reset via UART command
 	C:\Users\ick2bue\Documents\STM8_serial_flasher\STM8_serial_flasher.exe -p $(PORT) -f $(TARGET) -q -Q -r 2
 endif	
