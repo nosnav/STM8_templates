@@ -1,0 +1,9 @@
+<map id="i2c_lcd.c" name="i2c_lcd.c">
+<area shape="rect" id="node5" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="426,225,490,251"/>
+<area shape="rect" id="node6" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="383,152,459,177"/>
+<area shape="rect" id="node7" href="$d6/d7c/gpio_8h.html" title="declaration of functions/macros for GPIO control" alt="" coords="317,79,375,104"/>
+<area shape="rect" id="node8" href="$dd/d15/timer3_8h.html" title="declaration of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="450,79,520,104"/>
+<area shape="rect" id="node9" href="$d5/daf/i2c_8h.html" title="implementation of I2C functions/macros" alt="" coords="544,79,594,104"/>
+<area shape="rect" id="node10" href="$d9/db8/i2c__lcd_8h.html" title="declaration of 2x16 LCD output functions/macros" alt="" coords="592,152,666,177"/>
+<area shape="rect" id="node11" href="$de/d11/error__codes_8h.html" title="declaration of error codes" alt="" coords="669,79,773,104"/>
+</map>

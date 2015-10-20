@@ -1,0 +1,8 @@
+<map id="i2c.c" name="i2c.c">
+<area shape="rect" id="node2" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="94,225,159,251"/>
+<area shape="rect" id="node3" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="89,152,164,177"/>
+<area shape="rect" id="node4" href="$d6/d7c/gpio_8h.html" title="declaration of functions/macros for GPIO control" alt="" coords="27,79,85,104"/>
+<area shape="rect" id="node5" href="$d5/daf/i2c_8h.html" title="implementation of I2C functions/macros" alt="" coords="160,79,210,104"/>
+<area shape="rect" id="node6" href="$dd/d15/timer3_8h.html" title="declaration of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="234,79,304,104"/>
+<area shape="rect" id="node7" href="$de/d11/error__codes_8h.html" title="declaration of error codes" alt="" coords="328,79,432,104"/>
+</map>

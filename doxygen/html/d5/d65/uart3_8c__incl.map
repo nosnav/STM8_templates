@@ -1,0 +1,5 @@
+<map id="uart3.c" name="uart3.c">
+<area shape="rect" id="node3" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="146,225,210,251"/>
+<area shape="rect" id="node4" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="141,152,216,177"/>
+<area shape="rect" id="node5" href="$d1/d73/uart3_8h.html" title="declaration of UART3 functions &amp; macros" alt="" coords="192,79,255,104"/>
+</map>

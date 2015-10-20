@@ -1,0 +1,32 @@
+<map id="stm8as.h" name="stm8as.h">
+<area shape="rect" id="node2" href="$dc/d61/adc2_8c.html" title="implementation of ADC2 functions/macros" alt="" coords="5,79,66,104"/>
+<area shape="rect" id="node3" href="$d4/d25/beeper_8c.html" title="implementation of beeper control" alt="" coords="61,152,133,177"/>
+<area shape="rect" id="node4" href="$dd/d15/timer3_8h.html" title="declaration of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="317,79,386,104"/>
+<area shape="rect" id="node5" href="$d9/dcb/i2c_8c.html" title="i2c.c" alt="" coords="450,152,499,177"/>
+<area shape="rect" id="node6" href="$dc/d40/i2c__lcd_8c.html" title="implementation of 2x16 LCD output functions/macros" alt="" coords="352,152,426,177"/>
+<area shape="rect" id="node7" href="$de/d2d/i2c__poti_8c.html" title="implementation of I2C digital potentiometer functions/macros" alt="" coords="250,152,328,177"/>
+<area shape="rect" id="node8" href="$db/d79/timer1_8c.html" title="implementation of TIM1 functions/macros (PWM channel)" alt="" coords="587,152,655,177"/>
+<area shape="rect" id="node9" href="$db/d4d/timer2_8c.html" title="implementation of TIM2 functions/macros (PWM channel)" alt="" coords="771,152,839,177"/>
+<area shape="rect" id="node10" href="$d5/d06/timer3_8c.html" title="implementation of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="157,152,226,177"/>
+<area shape="rect" id="node11" href="$db/d16/debug_8h.html" title="declaration of global debug variables" alt="" coords="605,79,674,104"/>
+<area shape="rect" id="node12" href="$dd/dce/exint_8c.html" title="implementation of functions/macros for external interrupts" alt="" coords="1027,152,1087,177"/>
+<area shape="rect" id="node13" href="$d6/d7c/gpio_8h.html" title="declaration of functions/macros for GPIO control" alt="" coords="749,79,807,104"/>
+<area shape="rect" id="node14" href="$d8/da0/gpio_8c.html" title="implementation of functions/macros for GPIO control" alt="" coords="918,152,975,177"/>
+<area shape="rect" id="node15" href="$dd/de2/exint_8h.html" title="declaration of functions/macros for external interrupts" alt="" coords="1027,79,1087,104"/>
+<area shape="rect" id="node16" href="$d1/d4d/flash_8c.html" title="implementation of flash read/write routines" alt="" coords="1231,225,1291,251"/>
+<area shape="rect" id="node17" href="$de/df7/flash_8h.html" title="declaration of flash read/write routines" alt="" coords="1231,152,1291,177"/>
+<area shape="rect" id="node18" href="$d1/da1/_r_a_m__routines_8c.html" title="implementation of RAM routines for flash block w/e" alt="" coords="1368,225,1484,251"/>
+<area shape="rect" id="node19" href="$d5/ded/memory__access_8h.html" title="definition of macros and functions for memory r/w access" alt="" coords="1264,79,1394,104"/>
+<area shape="rect" id="node20" href="$d5/daf/i2c_8h.html" title="implementation of I2C functions/macros" alt="" coords="243,79,292,104"/>
+<area shape="rect" id="node21" href="$de/d9e/uart1_8h.html" title="declaration of UART1 functions &amp; macros" alt="" coords="1682,79,1744,104"/>
+<area shape="rect" id="node23" href="$d1/de8/uart1_8c.html" title="implementation of UART1 functions/macros" alt="" coords="1751,152,1813,177"/>
+<area shape="rect" id="node24" href="$db/d50/_r_a_m__routines_8h.html" title="declaration of RAM routines for flash block w/e" alt="" coords="1417,79,1534,104"/>
+<area shape="rect" id="node25" href="$da/d00/spi_8c.html" title="implementation of SPI functions/macros" alt="" coords="1609,79,1657,104"/>
+<area shape="rect" id="node26" href="$d6/dd6/timer1_8h.html" title="declaration of TIM1 functions/macros (PWM channel)" alt="" coords="512,79,581,104"/>
+<area shape="rect" id="node27" href="$dd/d8e/timer2_8h.html" title="declaration of TIM2 functions/macros (PWM channel)" alt="" coords="832,79,901,104"/>
+<area shape="rect" id="node28" href="$d6/dd9/timer4_8c.html" title="implementation of timer TIM4 (1ms clock) functions/macros" alt="" coords="1864,152,1933,177"/>
+<area shape="rect" id="node29" href="$d2/ddc/timer4_8h.html" title="declaration of timer TIM4 (1ms clock) functions/macros" alt="" coords="1820,79,1889,104"/>
+<area shape="rect" id="node30" href="$dc/d79/uart3_8c.html" title="implementation of UART3 functions/macros" alt="" coords="1999,152,2061,177"/>
+<area shape="rect" id="node31" href="$d1/d73/uart3_8h.html" title="declaration of UART3 functions &amp; macros" alt="" coords="1964,79,2027,104"/>
+<area shape="rect" id="node22" href="$db/de0/putchar_8c.html" title="implementation of required putchar() function" alt="" coords="1651,152,1727,177"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="i2c_poti.c" name="i2c_poti.c">
+<area shape="rect" id="node3" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="206,225,271,251"/>
+<area shape="rect" id="node4" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="201,152,276,177"/>
+<area shape="rect" id="node5" href="$dd/d15/timer3_8h.html" title="declaration of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="144,79,213,104"/>
+<area shape="rect" id="node6" href="$d5/daf/i2c_8h.html" title="implementation of I2C functions/macros" alt="" coords="288,79,338,104"/>
+<area shape="rect" id="node7" href="$d9/d43/i2c__poti_8h.html" title="declaration of I2C digital potentiometer functions/macros" alt="" coords="350,152,428,177"/>
+<area shape="rect" id="node8" href="$de/d11/error__codes_8h.html" title="declaration of error codes" alt="" coords="413,79,517,104"/>
+</map>

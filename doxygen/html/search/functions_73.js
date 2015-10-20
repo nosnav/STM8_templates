@@ -1,0 +1,12 @@
+var searchData=
+[
+  ['set_5fdig_5fpoti',['set_dig_poti',['../de/d2d/i2c__poti_8c.html#a1a1436f432f5238ad573711680c3a382',1,'set_dig_poti(uint8_t res):&#160;i2c_poti.c'],['../d9/d43/i2c__poti_8h.html#a1a1436f432f5238ad573711680c3a382',1,'set_dig_poti(uint8_t res):&#160;i2c_poti.c']]],
+  ['sleep_5fms',['sleep_ms',['../d5/d06/timer3_8c.html#a43ae4bb58864be955293b493690895d8',1,'sleep_ms(uint16_t dt):&#160;timer3.c'],['../dd/d15/timer3_8h.html#a43ae4bb58864be955293b493690895d8',1,'sleep_ms(uint16_t dt):&#160;timer3.c']]],
+  ['sleep_5fns',['sleep_ns',['../d5/d06/timer3_8c.html#a34152473acfbaeaebfcc2c4bd2e976cc',1,'sleep_ns(uint16_t dt):&#160;timer3.c'],['../dd/d15/timer3_8h.html#a34152473acfbaeaebfcc2c4bd2e976cc',1,'sleep_ns(uint16_t dt):&#160;timer3.c']]],
+  ['sleep_5fus',['sleep_us',['../d5/d06/timer3_8c.html#af7864f2d65bc5da91bf2a306df82274a',1,'sleep_us(uint16_t dt):&#160;timer3.c'],['../dd/d15/timer3_8h.html#af7864f2d65bc5da91bf2a306df82274a',1,'sleep_us(uint16_t dt):&#160;timer3.c']]],
+  ['spi_5fconfig',['spi_config',['../da/d00/spi_8c.html#ac391d09e199fbd7c8dc0ee3085fd6e20',1,'spi_config(uint8_t type, uint16_t timeout, uint8_t plex, uint8_t pre, uint8_t order, uint8_t phase, uint8_t idle):&#160;spi.c'],['../da/d87/spi_8h.html#ac391d09e199fbd7c8dc0ee3085fd6e20',1,'spi_config(uint8_t type, uint16_t timeout, uint8_t plex, uint8_t pre, uint8_t order, uint8_t phase, uint8_t idle):&#160;spi.c']]],
+  ['spi_5fisr',['spi_ISR',['../da/d00/spi_8c.html#a7204bb8614c5f1ca51ff87d490b72486',1,'spi_ISR():&#160;spi.c'],['../da/d87/spi_8h.html#a3fb2d3a4038a9299847b5080dddc44c9',1,'spi_ISR(void) __interrupt(__SPI_VECTOR__):&#160;spi.c']]],
+  ['spi_5fsend_5freceive',['spi_send_receive',['../da/d00/spi_8c.html#aba80cf828e4f7e30394d40f89b8c6e84',1,'spi_send_receive(uint8_t csn, uint8_t numTx, uint8_t *MOSI, uint8_t numRx, uint8_t *MISO):&#160;spi.c'],['../da/d87/spi_8h.html#aba80cf828e4f7e30394d40f89b8c6e84',1,'spi_send_receive(uint8_t csn, uint8_t numTx, uint8_t *MOSI, uint8_t numRx, uint8_t *MISO):&#160;spi.c']]],
+  ['start_5ftimeout_5fms',['start_timeout_ms',['../d5/d06/timer3_8c.html#ac2f918cecb17e77c35d64330e8494cb2',1,'start_timeout_ms(uint16_t dt):&#160;timer3.c'],['../dd/d15/timer3_8h.html#ac2f918cecb17e77c35d64330e8494cb2',1,'start_timeout_ms(uint16_t dt):&#160;timer3.c']]],
+  ['stop_5ftimeout_5fms',['stop_timeout_ms',['../d5/d06/timer3_8c.html#a1b99e153d50cddc4a53d91fe6304d8f5',1,'stop_timeout_ms():&#160;timer3.c'],['../dd/d15/timer3_8h.html#a40f25f2dddb269f4bf5b8b3a93f4ef8e',1,'stop_timeout_ms(void):&#160;timer3.c']]]
+];

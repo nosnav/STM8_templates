@@ -1,0 +1,6 @@
+<map id="exint.c" name="exint.c">
+<area shape="rect" id="node2" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="47,225,111,251"/>
+<area shape="rect" id="node3" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="79,152,154,177"/>
+<area shape="rect" id="node4" href="$d6/d7c/gpio_8h.html" title="declaration of functions/macros for GPIO control" alt="" coords="25,79,82,104"/>
+<area shape="rect" id="node5" href="$dd/de2/exint_8h.html" title="declaration of functions/macros for external interrupts" alt="" coords="158,79,219,104"/>
+</map>
