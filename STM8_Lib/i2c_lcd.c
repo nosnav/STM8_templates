@@ -1,5 +1,5 @@
 /**
-  \file lcd.c
+  \file i2c_lcd.c
    
   \author G. Icking-Konert
   \date 2013-11-22
@@ -24,7 +24,7 @@
 #include "gpio.h"
 #include "timer3.h"
 #include "i2c.h"
-#include "lcd.h"
+#include "i2c_lcd.h"
 #include "error_codes.h"
 
 
@@ -138,7 +138,7 @@ void lcd_print(uint8_t line, uint8_t col, char *s) {
   
   // wait until bus is free (with timeout)
   start_timeout_ms(100);
-  while ((I2C.SR3.reg.BUSY) && (!check_timeout()));
+  while ((I2C_BUSY) && (!check_timeout()));
   
   // generate start condition
   i2c_start();
@@ -183,7 +183,7 @@ void lcd_print(uint8_t line, uint8_t col, char *s) {
   
   // wait until bus is free (with timeout)
   start_timeout_ms(100);
-  while ((I2C.SR3.reg.BUSY) && (!check_timeout()));
+  while ((I2C_BUSY) && (!check_timeout()));
 
   // on I2C timeout set error flag
   if (check_timeout()) {
