@@ -1,0 +1,4 @@
+<map id="gpio_init" name="gpio_init">
+<area shape="rect" id="node2" href="$d5/daf/i2c_8h.html#a5730d9445429351b9f750084c5cb5aae" title="configure I2C bus as master in standard mode" alt="" coords="124,5,187,31"/>
+<area shape="rect" id="node3" href="$d9/db8/i2c__lcd_8h.html#af4fbb9b354b4788d9987c76ae9017a1e" title="initialize I2C, and reset LCD" alt="" coords="124,55,187,80"/>
+</map>

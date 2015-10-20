@@ -1,0 +1,5 @@
+<map id="misc.h" name="misc.h">
+<area shape="rect" id="node2" href="$d0/ddb/misc_8c.html" title="implementation of misc macros &amp; routines" alt="" coords="5,79,64,104"/>
+<area shape="rect" id="node3" href="$db/d79/timer1_8c.html" title="implementation of TIM1 functions/macros (PWM channel)" alt="" coords="89,79,157,104"/>
+<area shape="rect" id="node4" href="$db/d4d/timer2_8c.html" title="implementation of TIM2 functions/macros (PWM channel)" alt="" coords="182,79,251,104"/>
+</map>

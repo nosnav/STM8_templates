@@ -1,0 +1,7 @@
+<map id="RAM_routines.c" name="RAM_routines.c">
+<area shape="rect" id="node2" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="57,299,121,324"/>
+<area shape="rect" id="node3" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="51,225,126,251"/>
+<area shape="rect" id="node4" href="$de/df7/flash_8h.html" title="declaration of flash read/write routines" alt="" coords="33,79,94,104"/>
+<area shape="rect" id="node5" href="$d5/ded/memory__access_8h.html" title="definition of macros and functions for memory r/w access" alt="" coords="101,152,231,177"/>
+<area shape="rect" id="node6" href="$db/d50/_r_a_m__routines_8h.html" title="declaration of RAM routines for flash block w/e" alt="" coords="254,152,371,177"/>
+</map>

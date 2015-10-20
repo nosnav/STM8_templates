@@ -1,0 +1,8 @@
+<map id="gpio.h" name="gpio.h">
+<area shape="rect" id="node2" href="$dd/dce/exint_8c.html" title="implementation of functions/macros for external interrupts" alt="" coords="5,79,65,104"/>
+<area shape="rect" id="node3" href="$d8/da0/gpio_8c.html" title="implementation of functions/macros for GPIO control" alt="" coords="89,79,146,104"/>
+<area shape="rect" id="node4" href="$d9/dcb/i2c_8c.html" title="i2c.c" alt="" coords="171,79,220,104"/>
+<area shape="rect" id="node5" href="$dc/d40/i2c__lcd_8c.html" title="implementation of 2x16 LCD output functions/macros" alt="" coords="244,79,317,104"/>
+<area shape="rect" id="node6" href="$db/d79/timer1_8c.html" title="implementation of TIM1 functions/macros (PWM channel)" alt="" coords="341,79,410,104"/>
+<area shape="rect" id="node7" href="$db/d4d/timer2_8c.html" title="implementation of TIM2 functions/macros (PWM channel)" alt="" coords="434,79,503,104"/>
+</map>

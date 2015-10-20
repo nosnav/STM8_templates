@@ -1,0 +1,4 @@
+<map id="fifo_init" name="fifo_init">
+<area shape="rect" id="node2" href="$de/d9e/uart1_8h.html#a76b050001822d027cf4a51c354dd7f39" title="init UART1 for communication" alt="" coords="117,5,193,31"/>
+<area shape="rect" id="node3" href="$d1/d73/uart3_8h.html#ad27de3a727e3a0236f43f13932e9655c" title="init UART3 for communication" alt="" coords="117,55,193,80"/>
+</map>

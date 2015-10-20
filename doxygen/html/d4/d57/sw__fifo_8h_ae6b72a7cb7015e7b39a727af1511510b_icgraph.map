@@ -1,0 +1,5 @@
+<map id="fifo_dequeue" name="fifo_dequeue">
+<area shape="rect" id="node2" href="$d4/d57/sw__fifo_8h.html#a454ee3db76b2ce645a3de1e68e370405" title="for debugging print FIFO content to stdio (requires putchar()!)" alt="" coords="167,5,239,31"/>
+<area shape="rect" id="node3" href="$de/d9e/uart1_8h.html#a0bfb3c562a6987fd7bb5f8cd61ead527" title="UART1 data receive function (if FIFO is used, remove data from it)" alt="" coords="152,55,254,80"/>
+<area shape="rect" id="node4" href="$d1/d73/uart3_8h.html#aed495ea489e74b04b33fd0f1020485e0" title="UART3 data receive function (if FIFO is used, remove data from it)" alt="" coords="152,104,254,129"/>
+</map>

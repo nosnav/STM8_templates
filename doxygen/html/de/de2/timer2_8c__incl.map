@@ -1,0 +1,9 @@
+<map id="timer2.c" name="timer2.c">
+<area shape="rect" id="node2" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="104,225,168,251"/>
+<area shape="rect" id="node4" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="98,152,174,177"/>
+<area shape="rect" id="node5" href="$d4/d08/misc_8h.html" title="declaration of misc macros &amp; routines" alt="" coords="434,79,494,104"/>
+<area shape="rect" id="node6" href="$dd/d8e/timer2_8h.html" title="declaration of TIM2 functions/macros (PWM channel)" alt="" coords="28,79,98,104"/>
+<area shape="rect" id="node7" href="$d6/d7c/gpio_8h.html" title="declaration of functions/macros for GPIO control" alt="" coords="173,79,230,104"/>
+<area shape="rect" id="node8" href="$dd/d15/timer3_8h.html" title="declaration of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="255,79,324,104"/>
+<area shape="rect" id="node9" href="$de/d11/error__codes_8h.html" title="declaration of error codes" alt="" coords="518,79,621,104"/>
+</map>

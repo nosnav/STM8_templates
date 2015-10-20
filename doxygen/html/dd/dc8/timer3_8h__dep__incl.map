@@ -1,0 +1,9 @@
+<map id="timer3.h" name="timer3.h">
+<area shape="rect" id="node2" href="$d4/d25/beeper_8c.html" title="implementation of beeper control" alt="" coords="5,79,78,104"/>
+<area shape="rect" id="node3" href="$d9/dcb/i2c_8c.html" title="i2c.c" alt="" coords="101,79,150,104"/>
+<area shape="rect" id="node4" href="$dc/d40/i2c__lcd_8c.html" title="implementation of 2x16 LCD output functions/macros" alt="" coords="174,79,248,104"/>
+<area shape="rect" id="node5" href="$de/d2d/i2c__poti_8c.html" title="implementation of I2C digital potentiometer functions/macros" alt="" coords="272,79,350,104"/>
+<area shape="rect" id="node6" href="$db/d79/timer1_8c.html" title="implementation of TIM1 functions/macros (PWM channel)" alt="" coords="374,79,443,104"/>
+<area shape="rect" id="node7" href="$db/d4d/timer2_8c.html" title="implementation of TIM2 functions/macros (PWM channel)" alt="" coords="467,79,536,104"/>
+<area shape="rect" id="node8" href="$d5/d06/timer3_8c.html" title="implementation of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="561,79,629,104"/>
+</map>

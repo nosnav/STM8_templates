@@ -1,0 +1,6 @@
+<map id="i2c_stop" name="i2c_stop">
+<area shape="rect" id="node2" href="$d9/db8/i2c__lcd_8h.html#af4fbb9b354b4788d9987c76ae9017a1e" title="initialize I2C, and reset LCD" alt="" coords="388,5,451,31"/>
+<area shape="rect" id="node3" href="$d9/db8/i2c__lcd_8h.html#a3050d5148a61bb63df478dc030e472ea" title="print string to LCD diplay" alt="" coords="135,31,207,56"/>
+<area shape="rect" id="node5" href="$d9/d43/i2c__poti_8h.html#a1a1436f432f5238ad573711680c3a382" title="set resistance of potentiometer" alt="" coords="124,80,218,105"/>
+<area shape="rect" id="node4" href="$d9/db8/i2c__lcd_8h.html#ad235a86241458b1e7b8771688bfdaf9a" title="clear LCD" alt="" coords="266,31,340,56"/>
+</map>

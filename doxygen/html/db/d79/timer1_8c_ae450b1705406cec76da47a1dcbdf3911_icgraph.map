@@ -1,0 +1,4 @@
+<map id="tim1_init" name="tim1_init">
+<area shape="rect" id="node2" href="$d6/dd6/timer1_8h.html#a45041798e684619512d517540bdb76da" title="measure PWM signal on TIM1_CC1 (=PC1)" alt="" coords="124,5,232,31"/>
+<area shape="rect" id="node3" href="$d6/dd6/timer1_8h.html#a3b644a280ec144e3c9d9f7358c5624bd" title="generate PWM signal on TIM1_CC1 (=PC1)" alt="" coords="125,55,232,80"/>
+</map>
