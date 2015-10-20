@@ -39,4 +39,4 @@ README.txt
 Ideen.txt
 *.command
 *.bat
-#doxygen/html
+doxygen/html
