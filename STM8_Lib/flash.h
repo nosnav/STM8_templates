@@ -69,8 +69,8 @@
 // flash write/erase routines
 uint8_t   flash_write_option_byte(uint16_t addr, uint8_t data);   ///< write option byte (all in 16-bit range)
 void      flash_write_byte(MEM_POINTER_T addr, uint8_t data);     ///< write 1B to P-flash or EEPROM
-void      flash_erase_block(MEM_POINTER_T addr);                  ///< erase 128B block in flash
-void      flash_write_block(MEM_POINTER_T addr, uint8_t buf[]);   ///< write 128B block to flash
+void      flash_erase_block(MEM_POINTER_T addr);                  ///< erase 128B block in flash (must be executed from RAM)
+void      flash_write_block(MEM_POINTER_T addr, uint8_t buf[]);   ///< write 128B block to flash (must be executed from RAM)
 
 /*-----------------------------------------------------------------------------
     END OF MODULE DEFINITION FOR MULTIPLE INLUSION

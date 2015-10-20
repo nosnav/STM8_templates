@@ -3,7 +3,7 @@
   
   Periodically print text to 2x16 char LCD attached to I2C
   Used display: Batron BTHQ21605V-COG-FSRE-I2C 2X16 (Farnell 1220409)
-  connected via I2C pins PE1/SCL, PE2/SDA, and GPIO PE3 for LCD reset (see lcd.c)
+  connected via I2C pins PE1/SCL, PE2/SDA, and GPIO PE3 for LCD reset (see i2c_lcd.c)
   
   Functionality:
    - change CPU clock prescaler
@@ -24,7 +24,7 @@
   #include "stm8as.h"
   #include "gpio.h"
   #include "i2c.h"
-  #include "lcd.h"
+  #include "i2c_lcd.h"
   #include "timer3.h"
 #undef _MAIN_
 

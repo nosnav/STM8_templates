@@ -144,7 +144,7 @@ void flash_write_byte(MEM_POINTER_T addr, uint8_t data) {
   /**
     \fn void flash_erase_block(MEM_POINTER_T addr)
     
-    \brief erase 128B block in P-flash
+    \brief erase 128B block in P-flash (must be executed from RAM)
     
     \param[in] addr   address of block to erase
   
@@ -196,7 +196,7 @@ void flash_write_byte(MEM_POINTER_T addr, uint8_t data) {
   /**
     \fn void flash_write_block(MEM_POINTER_T addr, uint8_t ch[])
     
-    \brief write 128B block to flash
+    \brief write 128B block to flash (must be executed from RAM)
     
     \param[in] addr   address to write to (for width see stm8as.h)
     \param[in] buf    128B buffer to write

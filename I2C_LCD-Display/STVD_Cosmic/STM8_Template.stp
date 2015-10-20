@@ -311,16 +311,16 @@ Next=Root.STM8_Lib...\..\stm8_lib\i2c.h
 [Root.STM8_Lib...\..\stm8_lib\i2c.h]
 ElemType=File
 PathName=..\..\stm8_lib\i2c.h
-Next=Root.STM8_Lib...\..\stm8_lib\lcd.c
+Next=Root.STM8_Lib...\..\stm8_lib\i2c_lcd.c
 
-[Root.STM8_Lib...\..\stm8_lib\lcd.c]
+[Root.STM8_Lib...\..\stm8_lib\i2c_lcd.c]
 ElemType=File
-PathName=..\..\stm8_lib\lcd.c
-Next=Root.STM8_Lib...\..\stm8_lib\lcd.h
+PathName=..\..\stm8_lib\i2c_lcd.c
+Next=Root.STM8_Lib...\..\stm8_lib\i2c_lcd.h
 
-[Root.STM8_Lib...\..\stm8_lib\lcd.h]
+[Root.STM8_Lib...\..\stm8_lib\i2c_lcd.h]
 ElemType=File
-PathName=..\..\stm8_lib\lcd.h
+PathName=..\..\stm8_lib\i2c_lcd.h
 Next=Root.STM8_Lib...\..\stm8_lib\stdint.h
 
 [Root.STM8_Lib...\..\stm8_lib\stdint.h]
