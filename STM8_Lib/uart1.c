@@ -11,6 +11,7 @@
   Optional functionality via #define:
     - UART1_HALF_DUPLEX:  communication via 1-wire interface, e.g. LIN -> ignore echo after send (default: 2-wire)
     - UART1_FIFO:         send/receive is in background via interrupts and SW FIFO (default: blocking w/o FIFO)
+    - UART1_RST:          trigger SW reset on reception of "Re5eT!"
 */
 
 /*-----------------------------------------------------------------------------
@@ -18,7 +19,6 @@
 -----------------------------------------------------------------------------*/
 #include <stdio.h>
 #include <stdint.h>
-#include <string.h>
 #include "stm8as.h"
 #include "uart1.h"
 
@@ -44,6 +44,21 @@
   fifo_t  m_UART1_Tx_Fifo = { {0}, 0, 0, 0, 0 };
 
 #endif // UART1_FIFO
+
+
+// if UART reset command is used
+#ifdef UART1_RST
+  
+  /// reset command string
+  uint8_t  m_UART1_cmdReset[] = "Re5eT!";
+  
+  /// length of command string
+  uint8_t  m_UART1_lenReset = 6;
+  
+  /// index for state machine
+  uint8_t  m_UART1_idxReset = 0;
+  
+#endif // UART1_RST
 
 
 /*----------------------------------------------------------
@@ -227,13 +242,6 @@ uint8_t uart1_receive(void) {
 
   uint8_t   data;
   
-  // for optional UART reset command
-  #ifdef UART1_RST
-    static uint8_t  s_cmdReset[] = "Re5eT!";
-    static uint8_t  s_lenReset = 6;
-    static uint8_t  s_idxReset = 0;
-  #endif // UART1_RST
-
   // get Rx data from FIFO
   #ifdef UART1_FIFO
 
@@ -251,25 +259,23 @@ uint8_t uart1_receive(void) {
     
     // get content of UART1 Rx register
     data = UART1.DR.byte;
-    
+
+    // optional check for UART reset command
+    #ifdef UART1_RST
+
+      // check next byte vs. keyword
+      if (data == m_UART1_cmdReset[m_UART1_idxReset])
+        m_UART1_idxReset++;
+      else
+        m_UART1_idxReset = 0;
+
+      // trigger SW reset if full keyword received
+      if (m_UART1_idxReset >= m_UART1_lenReset)
+        SW_RESET;
+      
+    #endif // UART1_RST
+
   #endif // UART1_FIFO
-
-
-  // check for UART reset command
-  #ifdef UART1_RST
-    
-    // check next byte vs. keyword
-    if (data == s_cmdReset[s_idxReset])
-      s_idxReset++;
-    else
-      s_idxReset = 0;
-
-    // trigger SW reset if full keyword received
-    if (s_idxReset == s_lenReset)
-      SW_RESET;
-    
-  #endif // UART1_RST
-
     
   // return the FIFO data
   return(data);
@@ -338,6 +344,21 @@ uint8_t uart1_receive(void) {
   
     // add a new byte to the FIFO buffer
     fifo_enqueue(&m_UART1_Rx_Fifo, data);
+
+    // check for optional UART reset command
+    #ifdef UART1_RST
+
+      // check next byte vs. keyword
+      if (data == m_UART1_cmdReset[m_UART1_idxReset])
+        m_UART1_idxReset++;
+      else
+        m_UART1_idxReset = 0;
+
+      // trigger SW reset if full keyword received
+      if (m_UART1_idxReset >= m_UART1_lenReset)
+        SW_RESET;
+
+    #endif // UART1_RST
 
     return;
 

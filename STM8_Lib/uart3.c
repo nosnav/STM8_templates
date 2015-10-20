@@ -11,6 +11,7 @@
   Optional functionality via #define:
     - UART3_HALF_DUPLEX:  communication via 1-wire interface, e.g. LIN -> ignore echo after send (default: 2-wire)
     - UART3_FIFO:         send/receive is in background via interrupts and SW FIFO (default: blocking w/o FIFO)
+    - UART3_RST:          trigger SW reset on reception of "Re5eT!"
 */
 
 /*-----------------------------------------------------------------------------
@@ -43,6 +44,21 @@
   fifo_t  m_UART3_Tx_Fifo = { {0}, 0, 0, 0, 0 };
 
 #endif // UART3_FIFO
+
+
+// if UART reset command is used
+#ifdef UART3_RST
+  
+  /// reset command string
+  uint8_t  m_UART3_cmdReset[] = "Re5eT!";
+  
+  /// length of command string
+  uint8_t  m_UART3_lenReset = 6;
+  
+  /// index for state machine
+  uint8_t  m_UART3_idxReset = 0;
+  
+#endif // UART3_RST
 
 
 /*----------------------------------------------------------
@@ -150,7 +166,7 @@ void  uart3_send(uint8_t data) {
     #ifdef UART3_HALF_DUPLEX
       UART3.CR2.reg.REN = 0;
     #endif // UART3_HALF_DUPLEX
-    
+
     // send byte
     UART3.DR.byte = data;
 
@@ -226,13 +242,6 @@ uint8_t uart3_receive(void) {
 
   uint8_t   data;
   
-  // for optional UART reset command
-  #ifdef UART3_RST
-    static uint8_t  s_cmdReset[] = "Re5eT!";
-    static uint8_t  s_lenReset = 6;
-    static uint8_t  s_idxReset = 0;
-  #endif // UART3_RST
-
   // get Rx data from FIFO
   #ifdef UART3_FIFO
 
@@ -245,31 +254,28 @@ uint8_t uart3_receive(void) {
     // re-enable UART3 "Rx full interrupt"
     UART3.CR2.reg.RIEN = 1;
     
-    
   // get data from UART3 register
   #else // UART3_FIFO
     
     // get content of UART3 Rx register
     data = UART3.DR.byte;
     
-  #endif // UART3_FIFO
-
-
-  // check for UART reset command
-  #ifdef UART3_RST
-    
-    // check next byte vs. keyword
-    if (data == s_cmdReset[s_idxReset])
-      s_idxReset++;
-    else
-      s_idxReset = 0;
-
-    // trigger SW reset if full keyword received
-    if (s_idxReset == s_lenReset)
-      SW_RESET;
+    // optional check for UART reset command
+    #ifdef UART3_RST
       
-  #endif // UART3_RST
+      // check next byte vs. keyword
+      if (data == m_UART3_cmdReset[m_UART3_idxReset])
+        m_UART3_idxReset++;
+      else
+        m_UART3_idxReset = 0;
 
+      // trigger SW reset if full keyword received
+      if (m_UART3_idxReset >= m_UART3_lenReset)
+        SW_RESET;
+      
+    #endif // UART3_RST
+
+  #endif // UART3_FIFO
 
   // return the FIFO data
   return(data);
@@ -339,6 +345,21 @@ uint8_t uart3_receive(void) {
     // add a new byte to the FIFO buffer
     fifo_enqueue(&m_UART3_Rx_Fifo, data);
 
+    // check for optional UART reset command
+    #ifdef UART3_RST
+
+      // check next byte vs. keyword
+      if (data == m_UART3_cmdReset[m_UART3_idxReset])
+        m_UART3_idxReset++;
+      else
+        m_UART3_idxReset = 0;
+
+      // trigger SW reset if full keyword received
+      if (m_UART3_idxReset >= m_UART3_lenReset)
+        SW_RESET;
+
+    #endif // UART3_RST
+
     return;
 
   } // uart3_RXF_ISR
@@ -388,7 +409,7 @@ uint8_t uart3_receive(void) {
         while (!(UART3.SR.reg.TXE));
         UART3.CR2.reg.REN = 1;
       #endif // UART3_HALF_DUPLEX
-      
+
     } // Tx FIFO not empty
   
     // check again. If FIFO is empty now, deactivate this interrupt
