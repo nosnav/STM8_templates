@@ -1,5 +1,0 @@
-<map id="timer3.c" name="timer3.c">
-<area shape="rect" id="node2" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="28,225,93,251"/>
-<area shape="rect" id="node3" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="23,152,98,177"/>
-<area shape="rect" id="node4" href="$dd/d15/timer3_8h.html" title="declaration of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="86,79,155,104"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="error_codes.h" name="error_codes.h">
-<area shape="rect" id="node2" href="$d9/dcb/i2c_8c.html" title="i2c.c" alt="" coords="5,79,54,104"/>
-<area shape="rect" id="node3" href="$dc/d40/i2c__lcd_8c.html" title="implementation of 2x16 LCD output functions/macros" alt="" coords="78,79,152,104"/>
-<area shape="rect" id="node4" href="$de/d2d/i2c__poti_8c.html" title="implementation of I2C digital potentiometer functions/macros" alt="" coords="176,79,254,104"/>
-<area shape="rect" id="node5" href="$db/d79/timer1_8c.html" title="implementation of TIM1 functions/macros (PWM channel)" alt="" coords="278,79,347,104"/>
-<area shape="rect" id="node6" href="$db/d4d/timer2_8c.html" title="implementation of TIM2 functions/macros (PWM channel)" alt="" coords="371,79,440,104"/>
-</map>

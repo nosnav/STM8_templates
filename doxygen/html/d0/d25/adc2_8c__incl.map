@@ -1,5 +1,0 @@
-<map id="adc2.c" name="adc2.c">
-<area shape="rect" id="node2" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="25,152,89,177"/>
-<area shape="rect" id="node3" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="20,79,95,104"/>
-<area shape="rect" id="node4" href="$db/da2/adc2_8h.html" title="declaration of ADC2 functions/macros" alt="" coords="119,79,180,104"/>
-</map>

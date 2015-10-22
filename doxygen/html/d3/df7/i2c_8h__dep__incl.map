@@ -1,5 +1,0 @@
-<map id="i2c.h" name="i2c.h">
-<area shape="rect" id="node2" href="$d9/dcb/i2c_8c.html" title="i2c.c" alt="" coords="5,79,54,104"/>
-<area shape="rect" id="node3" href="$dc/d40/i2c__lcd_8c.html" title="implementation of 2x16 LCD output functions/macros" alt="" coords="78,79,152,104"/>
-<area shape="rect" id="node4" href="$de/d2d/i2c__poti_8c.html" title="implementation of I2C digital potentiometer functions/macros" alt="" coords="176,79,254,104"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="lcd_print" name="lcd_print">
-<area shape="rect" id="node2" href="$d9/db8/i2c__lcd_8h.html#ad235a86241458b1e7b8771688bfdaf9a" title="clear LCD" alt="" coords="125,5,200,31"/>
-<area shape="rect" id="node3" href="$d9/db8/i2c__lcd_8h.html#af4fbb9b354b4788d9987c76ae9017a1e" title="initialize I2C, and reset LCD" alt="" coords="248,5,311,31"/>
-</map>

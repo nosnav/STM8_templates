@@ -1,4 +1,0 @@
-<map id="i2c_stop" name="i2c_stop">
-<area shape="rect" id="node2" href="$d5/d06/timer3_8c.html#ac2f918cecb17e77c35d64330e8494cb2" title="start timeout with specified number of ms" alt="" coords="124,5,248,31"/>
-<area shape="rect" id="node3" href="$d5/d06/timer3_8c.html#a1b99e153d50cddc4a53d91fe6304d8f5" title="top timeout timer" alt="" coords="125,55,248,80"/>
-</map>

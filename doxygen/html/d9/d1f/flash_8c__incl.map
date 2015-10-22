@@ -1,6 +1,0 @@
-<map id="flash.c" name="flash.c">
-<area shape="rect" id="node2" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="39,299,103,324"/>
-<area shape="rect" id="node3" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="77,225,153,251"/>
-<area shape="rect" id="node4" href="$de/df7/flash_8h.html" title="declaration of flash read/write routines" alt="" coords="30,79,91,104"/>
-<area shape="rect" id="node5" href="$d5/ded/memory__access_8h.html" title="definition of macros and functions for memory r/w access" alt="" coords="166,152,296,177"/>
-</map>

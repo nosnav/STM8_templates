@@ -1,7 +1,0 @@
-<map id="lcd_print" name="lcd_print">
-<area shape="rect" id="node2" href="$d9/dcb/i2c_8c.html#aa14729f4bfa097f6d9e12c5d8e36b88a" title="write data via I2C" alt="" coords="125,25,200,50"/>
-<area shape="rect" id="node3" href="$d5/d06/timer3_8c.html#ac2f918cecb17e77c35d64330e8494cb2" title="start timeout with specified number of ms" alt="" coords="248,50,371,76"/>
-<area shape="rect" id="node4" href="$d5/d06/timer3_8c.html#a1b99e153d50cddc4a53d91fe6304d8f5" title="top timeout timer" alt="" coords="248,100,371,125"/>
-<area shape="rect" id="node5" href="$d9/dcb/i2c_8c.html#a1221ecd264261cb499dfc56334e3c710" title="generate I2C start condition" alt="" coords="127,74,198,100"/>
-<area shape="rect" id="node6" href="$d9/dcb/i2c_8c.html#a9d341934bcc0b538e1bc5f7b4eb447c3" title="generate I2C stop condition" alt="" coords="127,124,198,149"/>
-</map>

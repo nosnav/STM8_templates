@@ -1,7 +1,0 @@
-<map id="set_dig_poti" name="set_dig_poti">
-<area shape="rect" id="node2" href="$d9/dcb/i2c_8c.html#aa14729f4bfa097f6d9e12c5d8e36b88a" title="write data via I2C" alt="" coords="147,24,221,49"/>
-<area shape="rect" id="node3" href="$d5/d06/timer3_8c.html#ac2f918cecb17e77c35d64330e8494cb2" title="start timeout with specified number of ms" alt="" coords="269,49,393,75"/>
-<area shape="rect" id="node4" href="$d5/d06/timer3_8c.html#a1b99e153d50cddc4a53d91fe6304d8f5" title="top timeout timer" alt="" coords="270,99,393,124"/>
-<area shape="rect" id="node5" href="$d9/dcb/i2c_8c.html#a1221ecd264261cb499dfc56334e3c710" title="generate I2C start condition" alt="" coords="148,73,220,99"/>
-<area shape="rect" id="node6" href="$d9/dcb/i2c_8c.html#a9d341934bcc0b538e1bc5f7b4eb447c3" title="generate I2C stop condition" alt="" coords="148,123,219,148"/>
-</map>

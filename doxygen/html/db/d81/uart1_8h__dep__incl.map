@@ -1,4 +1,0 @@
-<map id="uart1.h" name="uart1.h">
-<area shape="rect" id="node2" href="$db/de0/putchar_8c.html" title="implementation of required putchar() function" alt="" coords="5,79,81,104"/>
-<area shape="rect" id="node3" href="$d1/de8/uart1_8c.html" title="implementation of UART1 functions/macros" alt="" coords="105,79,167,104"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="tim2_set_pwm" name="tim2_set_pwm">
-<area shape="rect" id="node2" href="$d0/ddb/misc_8c.html#a70cb1031afdba6244247dfd6f799a3ba" title="simple calculation of log2(x)" alt="" coords="173,5,219,31"/>
-<area shape="rect" id="node3" href="$db/d4d/timer2_8c.html#a5318250af4ac1e1483c0a31a9191d930" title="init timer 2 (PWM channel)" alt="" coords="161,55,232,80"/>
-</map>

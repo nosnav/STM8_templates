@@ -1,4 +1,0 @@
-<map id="putchar" name="putchar">
-<area shape="rect" id="node2" href="$d1/de8/uart1_8c.html#a869ecf39c6c449125607b8ddddbcbe2e" title="send byte via UART1" alt="" coords="119,5,207,31"/>
-<area shape="rect" id="node3" href="$d4/d57/sw__fifo_8h.html#aa210e454820a49ec26311ff1fe4c8862" title="add a new byte to the FIFO buffer" alt="" coords="255,5,354,31"/>
-</map>

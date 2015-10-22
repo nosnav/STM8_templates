@@ -1,4 +1,0 @@
-<map id="tim2_init" name="tim2_init">
-<area shape="rect" id="node2" href="$dd/d8e/timer2_8h.html#ab0a77676a332ac83f203770bbeeadb32" title="measure PWM signal on TIM2_CC2 (=PD3)" alt="" coords="124,5,232,31"/>
-<area shape="rect" id="node3" href="$dd/d8e/timer2_8h.html#a88fcafe617a27e1552ed98e6aa6e9bae" title="generate PWM signal on TIM2_CC2 (=PD3)" alt="" coords="125,55,232,80"/>
-</map>

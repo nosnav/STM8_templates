@@ -1,6 +1,0 @@
-<map id="beeper.c" name="beeper.c">
-<area shape="rect" id="node2" href="$d2/de8/stm8as_8h.html" title="definition of STM8 peripherals etc." alt="" coords="103,152,178,177"/>
-<area shape="rect" id="node4" href="$d8/d22/beeper_8h.html" title="declaration of beeper control" alt="" coords="5,152,79,177"/>
-<area shape="rect" id="node5" href="$dd/d15/timer3_8h.html" title="declaration of timer TIM3 functions/macros for sleep_x and timeout" alt="" coords="166,79,235,104"/>
-<area shape="rect" id="node3" href="$df/dd8/stdint_8h.html" title="substitute for &lt;stdint.h&gt;, if missing" alt="" coords="108,225,173,251"/>
-</map>
